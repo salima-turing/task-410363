@@ -17,7 +17,7 @@ async function readFileAsync(filePath) {
 // Example usage
 (async () => {
     try {
-        const filePath = '/path/to/large/file.txt';
+        const filePath = './data/data.txt';
         await readFileAsync(filePath);
     } catch (err) {
         console.error('Error reading file:', err);
